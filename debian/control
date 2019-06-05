@@ -4,18 +4,18 @@ Standards-Version: 3.8.4
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Uploaders: Vitex <vitex@hippy.cz>
 Priority: optional
-Homepage: https://github.com/VitexSoftware/FlexiPeeHP-Bricks
+Homepage: https://github.com/VitexSoftware/php-flexibee-bricks
 
-Package: flexipeehp-bricks
+Package: php-flexibee-bricks
 Depends: ${misc:Depends},php-flexibee
-Suggests: composer,flexipeehp-doc,flexipeehp-bricks-doc
+Suggests: composer,flexipeehp-doc,php-flexibee-bricks-doc
 Architecture: all
 Section: web
 Priority: optional
 Description: PHP Based FlexiBee RestAPI/Json library AddOns
  Additional classess and code snipplets for FlexiPeeHP library
 
-#Package: flexipeehp-bricks-doc
+#Package: php-flexibee-bricks-doc
 #Depends: ${misc:Depends}
 #Suggests: www-browser
 #Architecture: all
