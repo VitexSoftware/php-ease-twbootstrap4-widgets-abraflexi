@@ -1,0 +1,34 @@
+flexipeehp-bricks (0.21) UNRELEASED; urgency=medium
+
+  * new gatekeeper
+  * GDPR Logger Class added 
+  * \Ease\ui\Selectizer based RecordChooser && RecordSelector 
+
+ -- Vítězslav Dvořák <vitex@develoid.jinonice.czf>  Thu, 23 May 2019 23:33:40 +0200
+
+flexipeehp-bricks (0.19) UNRELEASED; urgency=medium
+
+  * New GateKeeper
+  * New RecordSelector
+  * Button Installer example
+
+ -- Vítězslav Dvořák <vitex@develoid.jinonice.czf>  Thu, 23 May 2019 23:30:11 +0200
+
+flexipeehp-bricks (0.13) UNRELEASED; urgency=medium
+
+  * New Order listing widget added
+  * CompanyLogo added
+  * getCustomerDebts return only invoices after due date
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Tue, 27 Nov 2018 00:01:22 +0100
+
+flexipeehp-bricks (0.8) experimental; urgency=low
+
+  [ Vítězslav Vitex Dvořák ]
+
+  * EUR support
+
+  [ Vítězslav Dvořák ]
+  * Packaging
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Tue, 30 Jan 2018 22:24:39 +0100
