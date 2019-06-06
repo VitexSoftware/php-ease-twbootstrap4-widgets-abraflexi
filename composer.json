@@ -1,6 +1,6 @@
 {
     "name": "vitexsoftware/flexibee-bricks",
-    "description": "FlexiPeeHP code Sniplets",
+    "description": "php-flexibee extending classes and widgets",
     "type": "library",
     "authors": [
         {

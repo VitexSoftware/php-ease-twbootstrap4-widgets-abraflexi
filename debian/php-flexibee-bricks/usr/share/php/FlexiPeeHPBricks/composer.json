@@ -1,6 +1,6 @@
 {
     "name": "deb/flexibee-bricks",
-    "description": "php-flexibee extending classes and widgets (debianized)",
+    "description": "PHP Based Library for easy interaction with czech accounting system Flexibee.",
     "homepage": "https://github.com/VitexSoftware/FlexiPeeHP-Bricks",
     "license": "GPL-2.0+",
     "version": "0.24",

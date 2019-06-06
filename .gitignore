@@ -9,3 +9,4 @@ composer.lock
 /debian/flexipeehp-bricks.substvars
 /debian/flexipeehp-bricks/
 /debian/flexipeehp-bricks-doc/
+/debian/php-flexibee-bricks.debhelper.log

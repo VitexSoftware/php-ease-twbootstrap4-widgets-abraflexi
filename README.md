@@ -15,7 +15,7 @@ Příklady použití knihovny [FlexiPeeHP](https://github.com/Spoje-NET/FlexiPee
 Instalace
 ----------
 
-    composer require vitexsoftware/flexipeehp-bricks
+    composer require vitexsoftware/flexibee-bricks
 
 
 
