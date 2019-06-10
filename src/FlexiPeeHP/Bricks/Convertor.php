@@ -90,18 +90,6 @@ class Convertor extends \Ease\Sand
     }
 
     /**
-     * Get Classname without namespace prefix
-     * 
-     * @param object $object
-     * 
-     * @return string
-     */
-    static public function baseClassName($object)
-    {
-        return basename(str_replace('\\', '/', get_class($object)));
-    }
-
-    /**
      * Prepare conversion rules
      * 
      * @throws \Ease\Exception
