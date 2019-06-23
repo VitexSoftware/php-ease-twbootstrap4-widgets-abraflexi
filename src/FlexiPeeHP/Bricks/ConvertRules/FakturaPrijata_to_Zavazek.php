@@ -1,6 +1,6 @@
 <?php
 
-namespace SpojeNet\System;
+namespace FlexiPeehp\Bricks\ConvertRules;
 
 /**
  * Description of FakturaPrijata_to_Zavazek
