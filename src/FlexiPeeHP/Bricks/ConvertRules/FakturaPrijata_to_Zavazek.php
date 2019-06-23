@@ -18,10 +18,10 @@ class FakturaPrijata_to_Zavazek extends \FlexiPeeHP\Bricks\ConvertorRule
 //        'datObj' => 'datObj',
 //        'cisDodak' => 'cisDodak',
 //        'doprava' => 'doprava',
-//        'datVyst' => 'datVyst',
+        'datVyst' => 'datVyst',
 //        'duzpPuv' => 'duzpPuv',
 //        'duzpUcto' => 'duzpUcto',
-//        'datSplat' => 'datSplat',
+        'datSplat' => 'datSplat',
 //        'datTermin' => 'datTermin',
 //        'datReal' => 'datReal',
         'popis' => 'popis',
@@ -106,7 +106,7 @@ class FakturaPrijata_to_Zavazek extends \FlexiPeeHP\Bricks\ConvertorRule
             'nazevB' => 'nazevB',
             'nazevC' => 'nazevC',
 //            'cisRad' => 'cisRad',
-            'typPolozkyK' => 'typPolozkyK',
+            'typPolozkyK' => 'polozkyFakturyTypPolozkyK()',
 //            'baleniId' => 'baleniId',
 //            'mnozBaleni' => 'mnozBaleni',
             'mnozMj' => 'mnozMj',
@@ -172,4 +172,15 @@ class FakturaPrijata_to_Zavazek extends \FlexiPeeHP\Bricks\ConvertorRule
         ),
     );
 
+    /**
+     * zavazek-polozka do not support typPolozky.katalog and "cenik" column
+     * 
+     * @param string $inputValue typPolozky.obecny|typPolozky.ucetni|typPolozky.text|typPolozky.katalog
+     * 
+     * @return string typPolozky.obecny|typPolozky.ucetni|typPolozky.text
+     */
+    public function polozkyFakturyTypPolozkyK($inputValue)
+    {
+        return ($inputValue == 'typPolozky.katalog') ? 'typPolozky.obecny' : $inputValue;
+    }
 }
