@@ -1,5 +1,5 @@
 {
-    "name": "vitexsoftware/ease-twbootstrap-widgets-flexibee",
+    "name": "vitexsoftware/ease-twbootstrap4-widgets-flexibee",
     "description": "php-flexibee extending classes and widgets",
     "type": "library",
     "authors": [
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "FlexiPeeHP\\ui\\": "src/FlexiPeeHP/ui"
+            "FlexiPeeHP\\ui\\TWB4\\": "src/FlexiPeeHP/ui/TWB4"
         }
     },
     "autoload-dev": {
