@@ -1,5 +1,5 @@
 {
-    "name": "vitexsoftware/flexibee-bricks",
+    "name": "vitexsoftware/ease-twbootstrap-widgets-flexibee",
     "description": "php-flexibee extending classes and widgets",
     "type": "library",
     "authors": [
@@ -11,21 +11,18 @@
     "minimum-stability": "dev",
     "require": {
         "spoje.net/flexibee": "dev-master",
-        "vitexsoftware/ease-html": "dev-master"
+        "vitexsoftware/ease-bricks": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "FlexiPeeHP\\Bricks\\": "src/FlexiPeeHP/Bricks",
-            "FlexiPeeHP\\Bricks\\ConvertRules\\": "src/FlexiPeeHP/Bricks/ConvertRules",
             "FlexiPeeHP\\ui\\": "src/FlexiPeeHP/ui"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Test\\Ease\\": "vendor/vitexsoftware/ease-framework/tests/src/Ease",
-            "Test\\FlexiPeeHP\\Bricks\\": "testing/FlexiPeeHP/Bricks",
-            "Test\\FlexiPeeHP\\ui\\": "testing/FlexiPeeHP/ui",
             "Test\\FlexiPeeHP\\": "vendor/spoje.net/flexipeehp/testing/src/FlexiPeeHP/",
+            "Test\\FlexiPeeHP\\ui\\": "testing/FlexiPeeHP/ui",
             "Test\\": "testing/"
         }
     },
