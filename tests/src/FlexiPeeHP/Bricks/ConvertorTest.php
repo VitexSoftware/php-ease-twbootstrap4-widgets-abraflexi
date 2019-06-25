@@ -62,15 +62,6 @@ class ConvertorTest extends \Test\Ease\SandTest
     }
 
     /**
-     * @covers FlexiPeeHP\Bricks\Convertor::baseClassName
-     */
-    public function testBaseClassName()
-    {
-        $this->assertEquals('FakturaVydana',
-            $this->object->baseClassName(new \FlexiPeeHP\FakturaVydana()));
-    }
-
-    /**
      * @covers FlexiPeeHP\Bricks\Convertor::prepareRules
      * @todo   Implement testPrepareRules().
      */

@@ -1,3 +1,9 @@
+php-flexibee-bricks (0.25) UNRELEASED; urgency=medium
+
+  * New Cloner and its rules
+
+ -- Vítězslav Dvořák <vitex@develoid.jinonice.czf>  Tue, 18 Jun 2019 18:40:48 +0200
+
 php-flexibee-bricks (0.24) UNRELEASED; urgency=medium
 
   * ease-core-based release

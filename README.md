@@ -66,15 +66,12 @@ Zatím několik málo praktických ukázek určený k použití ve vašich aplik
 
 | Soubor                                                        | Popis                                 |
 | ------------------------------------------------------------- | --------------------------------------|
-| [AdresarForm.php](src/FlexiPeeHP/Bricks/ui/AdresarForm.php)   | Editační formulář adresy
 | [CompanyLogo.php](src/FlexiPeeHP/Bricks/ui/CompanyLogo.php)   | Logo Firmy
 | [FlexiBeeLogo.php](src/FlexiPeeHP/Bricks/ui/FlexiBeeLogo.php) | Logo FlexiBee
-| [KontaktForm.php](src/FlexiPeeHP/Bricks/ui/KontaktForm.php)   | Editační formulář kontaktu adresy
 | [EmbedResponsiveHTML.php](src/FlexiPeeHP/Bricks/ui/EmbedResponsiveHTML.php)| Třída pro zobrazení HTML dokumentu na stránce 
 | [EmbedResponsivePDF.php](src/FlexiPeeHP/Bricks/ui/EmbedResponsivePDF.php)  | Třída pro zobrazení PDF dokumentu na stránce 
 | [RecordTypeSelect.php](src/FlexiPeeHP/Bricks/ui/RecordTypeSelect.php)      | Nabídka pro výběr typu dokumnetu 
 | [RecordChooser.php](src/FlexiPeeHP/Bricks/ui/RecordChooser.php)            | Nabídka pro výběr záznamu zaleožený na [Selectize.js](https://selectize.github.io/selectize.js/)
-| [StatusInfoBox.php](src/FlexiPeeHP/Bricks/ui/StatusInfoBox.php)            | Info widget o stavu připojení
 
 
 Ukázky ve složce [Examples](Examples)
