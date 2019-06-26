@@ -10,8 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "spoje.net/flexibee": "dev-master",
-        "vitexsoftware/ease-bricks": "dev-master"
+        "vitexsoftware/flexibee-bricks": "dev-master"
     },
     "autoload": {
         "psr-4": {
