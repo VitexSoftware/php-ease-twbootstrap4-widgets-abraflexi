@@ -10,8 +10,10 @@ namespace FlexiPeeHP\ui\TWB4;
 /**
  * FlexiBee connection status widget
  */
-class StatusInfoBox extends \FlexiPeeHP\Company
+class StatusInfoBox extends \FlexiPeeHP\Company implements \Ease\Embedable
 {
+
+    use \Ease\Glue;
     /**
      * FlexiBee Status
      * @var array
@@ -29,7 +31,7 @@ class StatusInfoBox extends \FlexiPeeHP\Company
         parent::__construct($init, $properites);
         $infoRaw = $this->getFlexiData();
         if (count($infoRaw) && !array_key_exists('success', $infoRaw)) {
-            $this->info = $this->reindexArrayBy($infoRaw, 'dbNazev');
+            $this->info = \Ease\Functions::reindexArrayBy($infoRaw, 'dbNazev');
         }
     }
 
@@ -49,8 +51,8 @@ class StatusInfoBox extends \FlexiPeeHP\Company
     public function draw()
     {
         if ($this->connected()) {
-        $myCompany = $this->getCompany();
-            $return = new \Ease\TWB4\LinkButton($this->url.'/c/'.$myCompany,
+            $myCompany = $this->getCompany();
+            $return    = new \Ease\TWB4\LinkButton($this->url.'/c/'.$myCompany,
                 $this->info[$myCompany]['nazev'], 'success');
         } else {
             $return = new \Ease\TWB4\LinkButton($this->getApiURL(),
