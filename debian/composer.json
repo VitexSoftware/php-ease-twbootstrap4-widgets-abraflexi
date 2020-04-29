@@ -1,9 +1,9 @@
 {
-    "name": "deb/flexibee-bricks",
+    "name": "deb/ease-twbootstrap4-widgets-flexibee",
     "description": "php-flexibee extending classes and widgets (debianized)",
     "homepage": "https://github.com/VitexSoftware/FlexiPeeHP-Bricks",
     "license": "GPL-2.0+",
-    "version": "0.25",
+    "version": "0.1",
     "type": "library",
     "authors": [
         {
@@ -17,9 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "FlexiPeeHP\\Bricks\\": "./Bricks",
-            "FlexiPeeHP\\Bricks\\ConvertRules\\": "./Bricks/ConvertRules",
-            "FlexiPeeHP\\ui\\": "./ui"
+            "FlexiPeeHP\\ui\\TWB4\\": "./"
         }
     },
     "minimum-stability": "dev",
@@ -43,6 +41,11 @@
         {
             "type": "path",
             "url": "/usr/share/php/FlexiPeeHP"
+        },
+        {   
+            "type": "path",
+            "url": "/usr/share/php/EaseTWB4Widgets"
         }
+
     ]
 }

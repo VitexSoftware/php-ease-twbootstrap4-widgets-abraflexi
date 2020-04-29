@@ -1,4 +1,4 @@
-docs/*                      usr/share/doc/FlexiPeeHPBricks/html
-docs/resources/*            usr/share/doc/FlexiPeeHPBricks/html/resources
-debian/flexipeehp-bricks-doc.conf  usr/share/doc/flexipeehp-bricks-doc/apache
-README.md                   usr/share/doc/FlexiPeeHPBricks/
+docs/*                      usr/share/doc/EaseTWB4WidgetsFlexiBee/html
+docs/resources/*            usr/share/doc/EaseTWB4WidgetsFlexiBee/html/resources
+debian/php-ease-twbootstrap4-widgets-flexibee-doc.conf  usr/share/doc/php-ease-twbootstrap4-widgets-flexibee-doc/apache
+README.md                   usr/share/doc/EaseTWB4WidgetsFlexiBee/

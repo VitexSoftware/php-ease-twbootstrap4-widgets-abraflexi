@@ -1,4 +1,4 @@
-Source: ease-twbootstrap4-widgets-flexibee
+Source: php-ease-twbootstrap4-widgets-flexibee
 Build-Depends: debhelper (>= 7.0.50~),php-apigen
 Standards-Version: 3.8.4
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
@@ -7,8 +7,8 @@ Priority: optional
 Homepage: https://github.com/Vitexus/php-ease-twbootstrap4-widgets-flexibee
 
 Package: php-ease-twbootstrap4-widgets-flexibee
-Depends: ${misc:Depends},php-flexibee,php-ease-bricks
-Suggests: composer,flexipeehp-doc,php-flexibee-bricks-doc
+Depends: ${misc:Depends},php-ease-twbootstrap4-widgets
+Suggests: flexipeehp-doc,php-flexibee-bricks-doc
 Architecture: all
 Section: web
 Priority: optional
