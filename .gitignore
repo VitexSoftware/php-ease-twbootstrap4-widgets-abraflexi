@@ -2,6 +2,7 @@ composer.lock
 /nbproject/private/
 /vendor/
 /debian/debhelper-build-stamp
+/debian/php-ease-bootstrap4-widgets-flexibee
 /clover.log
 /debian/php-ease-bootstrap4-widgets-flexibee-doc.debhelper.log
 /debian/php-ease-bootstrap4-widgets-flexibee.debhelper.log

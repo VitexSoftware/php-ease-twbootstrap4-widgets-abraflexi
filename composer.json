@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-	"vitexsoftware/ease-bootstrap4": "dev-master",
+	"vitexsoftware/ease-twbootstrap4": "dev-master",
         "vitexsoftware/flexibee-bricks": "dev-master"
     },
     "autoload": {
