@@ -1,13 +1,13 @@
-Source: php-ease-twbootstrap4-widgets-flexibee
+Source: php-ease-bootstrap4-widgets-flexibee
 Build-Depends: debhelper (>= 7.0.50~),php-apigen
-Standards-Version: 3.8.4
+Standards-Version: 4.3.0
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Uploaders: Vitex <vitex@hippy.cz>
 Priority: optional
-Homepage: https://github.com/Vitexus/php-ease-twbootstrap4-widgets-flexibee
+Homepage: https://github.com/Vitexus/php-ease-bootstrap4-widgets-flexibee
 
-Package: php-ease-twbootstrap4-widgets-flexibee
-Depends: ${misc:Depends},php-ease-twbootstrap4-widgets
+Package: php-ease-bootstrap4-widgets-flexibee
+Depends: ${misc:Depends},php-ease-bootstrap4-widgets
 Suggests: flexipeehp-doc,php-flexibee-bricks-doc
 Architecture: all
 Section: web
@@ -15,7 +15,7 @@ Priority: optional
 Description: PHP Based FlexiBee RestAPI/Json library AddOns
  Additional classess and code snipplets for FlexiPeeHP library
 
-#Package: php-ease-twbootstrap4-widgets-flexibee-doc
+#Package: php-ease-bootstrap4-widgets-flexibee-doc
 #Depends: ${misc:Depends}
 #Suggests: www-browser
 #Architecture: all

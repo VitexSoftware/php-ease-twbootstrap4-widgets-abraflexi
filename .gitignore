@@ -3,10 +3,10 @@ composer.lock
 /vendor/
 /debian/debhelper-build-stamp
 /clover.log
-/debian/php-ease-twbootstrap4-widgets-flexibee-doc.debhelper.log
-/debian/php-ease-twbootstrap4-widgets-flexibee.debhelper.log
-/debian/php-ease-twbootstrap4-widgets-flexibee-doc.substvars
-/debian/php-ease-twbootstrap4-widgets-flexibee.substvars
-/debian/php-ease-twbootstrap4-widgets-flexibee/
-/debian/php-ease-twbootstrap4-widgets-flexibee-doc/
-/debian/php-ease-twbootstrap4-widgets-flexibee.debhelper.log
+/debian/php-ease-bootstrap4-widgets-flexibee-doc.debhelper.log
+/debian/php-ease-bootstrap4-widgets-flexibee.debhelper.log
+/debian/php-ease-bootstrap4-widgets-flexibee-doc.substvars
+/debian/php-ease-bootstrap4-widgets-flexibee.substvars
+/debian/php-ease-bootstrap4-widgets-flexibee/
+/debian/php-ease-bootstrap4-widgets-flexibee-doc/
+/debian/php-ease-bootstrap4-widgets-flexibee.debhelper.log

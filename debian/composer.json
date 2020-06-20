@@ -1,5 +1,5 @@
 {
-    "name": "deb/ease-twbootstrap4-widgets-flexibee",
+    "name": "deb/ease-bootstrap4-widgets-flexibee",
     "description": "php-flexibee extending classes and widgets (debianized)",
     "homepage": "https://github.com/VitexSoftware/FlexiPeeHP-Bricks",
     "license": "GPL-2.0+",
@@ -24,7 +24,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "/usr/share/php/Ease"
+            "url": "/usr/share/php/EaseCore"
         },
         {
             "type": "path",

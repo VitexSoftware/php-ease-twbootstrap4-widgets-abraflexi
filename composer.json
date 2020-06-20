@@ -1,5 +1,5 @@
 {
-    "name": "vitexsoftware/ease-twbootstrap4-widgets-flexibee",
+    "name": "vitexsoftware/ease-bootstrap4-widgets-flexibee",
     "description": "php-flexibee extending classes and widgets",
     "type": "library",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-	"vitexsoftware/ease-twbootstrap4": "dev-master",
+	"vitexsoftware/ease-bootstrap4": "dev-master",
         "vitexsoftware/flexibee-bricks": "dev-master"
     },
     "autoload": {
