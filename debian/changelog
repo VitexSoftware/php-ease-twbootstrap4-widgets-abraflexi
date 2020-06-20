@@ -1,4 +1,4 @@
-php-ease-bootstrap4-widgets-flexibee (0.3) UNRELEASED; urgency=medium
+php-ease-bootstrap4-widgets-flexibee (0.4) UNRELEASED; urgency=medium
 
   [ Vítězslav Dvořák ]
   * New Cloner and its rules
@@ -10,5 +10,6 @@ php-ease-bootstrap4-widgets-flexibee (0.3) UNRELEASED; urgency=medium
   * Release 0.1
   * Release v0.3
   * Release v0.3
+  * Release v0.3
 
- -- CyberVitexus <vitex@exiv.jinonice.czf>  Sat, 20 Jun 2020 13:21:29 +0200
+ -- CyberVitexus <vitex@exiv.jinonice.czf>  Sat, 20 Jun 2020 14:20:04 +0200
