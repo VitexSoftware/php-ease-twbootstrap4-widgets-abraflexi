@@ -8,10 +8,9 @@
             "email": "info@vitexsoftware.cz"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-	"vitexsoftware/ease-twbootstrap4": "dev-master",
-        "vitexsoftware/flexibee-bricks": "dev-master"
+	"vitexsoftware/ease-twbootstrap4": "^1.0",
+        "vitexsoftware/flexibee-bricks": "^1.0"
     },
     "autoload": {
         "psr-4": {
