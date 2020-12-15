@@ -8,25 +8,25 @@
             "email": "info@vitexsoftware.cz"
         }
     ],
+    "license": "MIT",
     "require": {
-	"vitexsoftware/ease-twbootstrap4": "^1.0",
-        "vitexsoftware/flexibee-bricks": "^1.0"
+        "vitexsoftware/ease-twbootstrap4": ">=1.1",
+        "vitexsoftware/flexibee-bricks": "dev-abraflexi"
     },
     "autoload": {
         "psr-4": {
-            "FlexiPeeHP\\ui\\TWB4\\": "src/FlexiPeeHP/ui/TWB4"
+            "AbraFlexi\\ui\\TWB4\\": "src/AbraFlexi/ui/TWB4"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Test\\Ease\\": "vendor/vitexsoftware/ease-framework/tests/src/Ease",
-            "Test\\FlexiPeeHP\\": "vendor/spoje.net/flexipeehp/testing/src/FlexiPeeHP/",
-            "Test\\FlexiPeeHP\\ui\\": "testing/FlexiPeeHP/ui",
+            "Test\\AbraFlexi\\": "vendor/spoje.net/flexipeehp/testing/src/AbraFlexi/",
+            "Test\\AbraFlexi\\ui\\": "testing/AbraFlexi/ui",
             "Test\\": "testing/"
         }
     },
     "require-dev": {
-        "codeception/codeception": "*",
-        "phpunit/phpunit": "^8"
+        "phpunit/phpunit": "^9"
     }
 }

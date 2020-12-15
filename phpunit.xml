@@ -2,13 +2,13 @@
 <phpunit colors="true" bootstrap="./tests/bootstrap.php">
     <testsuites>
         <testsuite name="all">
-            <directory>./tests/src/FlexiPeeHP</directory>
+            <directory>./tests/src/AbraFlexi</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory suffix=".php">src/FlexiPeeHP</directory>
+            <directory suffix=".php">src/AbraFlexi</directory>
         </whitelist>
     </filter>
 

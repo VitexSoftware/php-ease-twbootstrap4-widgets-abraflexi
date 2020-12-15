@@ -1,7 +1,7 @@
 {
     "name": "deb/ease-bootstrap4-widgets-flexibee",
     "description": "php-flexibee extending classes and widgets (debianized)",
-    "homepage": "https://github.com/VitexSoftware/FlexiPeeHP-Bricks",
+    "homepage": "https://github.com/VitexSoftware/AbraFlexi-Bricks",
     "license": "GPL-2.0+",
     "version": "0.1",
     "type": "library",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "FlexiPeeHP\\ui\\TWB4\\": "./"
+            "AbraFlexi\\ui\\TWB4\\": "./"
         }
     },
     "minimum-stability": "dev",
@@ -40,7 +40,7 @@
         },
         {
             "type": "path",
-            "url": "/usr/share/php/FlexiPeeHP"
+            "url": "/usr/share/php/AbraFlexi"
         },
         {   
             "type": "path",

@@ -1,16 +1,16 @@
 <?php
 /**
- * FlexiPeeHP Bricks
+ * AbraFlexi Bricks
  *
  * @author Vítězslav Dvořák <info@vitexsoftware.cz>
  */
 
-namespace FlexiPeeHP\ui\TWB4;
+namespace AbraFlexi\ui\TWB4;
 
 /**
  * FlexiBee connection status widget
  */
-class StatusInfoBox extends \FlexiPeeHP\Company implements \Ease\Embedable
+class StatusInfoBox extends \AbraFlexi\Company implements \Ease\Embedable
 {
 
     use \Ease\Glue;

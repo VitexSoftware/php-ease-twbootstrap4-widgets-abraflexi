@@ -26,11 +26,11 @@ How to run ?
 
 ### Co tady máme ?
 
-# Třídy v FlexiPeeHP/Bricks/ui/TWB4:
+# Třídy v AbraFlexi/Bricks/ui/TWB4:
 
 | Soubor                                                           | Popis                                 |
 | ---------------------------------------------------------------- | --------------------------------------|
-| [StatusInfoBox](src/FlexiPeeHP/Bricks/ui/TWB4/StatusInfoBox.php) | Infostaus pripojeni k firme
+| [StatusInfoBox](src/AbraFlexi/Bricks/ui/TWB4/StatusInfoBox.php) | Infostaus pripojeni k firme
 
 
 Ukázky ve složce [Examples](Examples)

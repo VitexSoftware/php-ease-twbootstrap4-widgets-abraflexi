@@ -1,11 +1,11 @@
 <?php
 /**
- * FlexiPeeHP Bricks - Connection Config Form
+ * AbraFlexi Bricks - Connection Config Form
  *
  * @author Vítězslav Dvořák <info@vitexsoftware.cz>
  */
 
-namespace FlexiPeeHP\ui\TWB4;
+namespace AbraFlexi\ui\TWB4;
 
 use \Ease\TWB4\Form;
 use \Ease\TWB4\SubmitButton;

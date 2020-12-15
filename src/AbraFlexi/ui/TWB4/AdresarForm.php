@@ -1,11 +1,11 @@
 <?php
 /**
- * FlexiPeeHP Bricks - AddressForm
+ * AbraFlexi Bricks - AddressForm
  *
  * @author Vítězslav Dvořák <info@vitexsoftware.cz>
  */
 
-namespace FlexiPeeHP\ui\TWB4;
+namespace AbraFlexi\ui\TWB4;
 
 /**
  * Description of AddressForm
@@ -17,14 +17,14 @@ class AdresarForm extends \Ease\TWB4\Form
     /**
      * Address Object holder.
      *
-     * @var \FlexiPeeHP\Adresar
+     * @var \AbraFlexi\Adresar
      */
     public $address = null;
 
     /**
      * Address Book item form
      * 
-     * @param \FlexiPeeHP\Adresar $address
+     * @param \AbraFlexi\Adresar $address
      */
     public function __construct($address)
     {
