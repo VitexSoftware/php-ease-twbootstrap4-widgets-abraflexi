@@ -8,20 +8,20 @@
 namespace AbraFlexi\ui\TWB4;
 
 /**
- * FlexiBee connection status widget
+ * Abraflexi connection status widget
  */
 class StatusInfoBox extends \AbraFlexi\Company implements \Ease\Embedable
 {
 
     use \Ease\Glue;
     /**
-     * FlexiBee Status
+     * Abraflexi Status
      * @var array
      */
     public $info = [];
 
     /**
-     * Try to connect to FlexiBee
+     * Try to connect to Abraflexi
      *
      * @param string|array $init    company dbNazev or initial data
      * @param array        $options Connection settings override

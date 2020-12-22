@@ -1,26 +1,26 @@
-# php-vitexsoftware-ease-bootstrap4-widgets-flexibee
-![Project Logo](https://raw.githubusercontent.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee/master/project-logo.png "Project Logo")
+# php-vitexsoftware-ease-bootstrap4-widgets-abraflexi
+![Project Logo](https://raw.githubusercontent.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi/master/project-logo.png "Project Logo")
 
 [![Build Status](https://travis-ci.org/VitexSoftware/Ease-PHP-Bricks.svg?branch=master)](https://travis-ci.org/VitexSoftware/Ease-PHP-Bricks)
-[![GitHub stars](https://img.shields.io/github/stars/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee.svg)](https://github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee.svg)](https://github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee/issues)
-[![GitHub license](https://img.shields.io/github/license/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee.svg)](https://github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee/blob/master/LICENSE)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FVitexSoftware%2Fphp-vitexsoftware-ease-bootstrap4-widgets-flexibee)
+[![GitHub stars](https://img.shields.io/github/stars/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.svg)](https://github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.svg)](https://github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi/issues)
+[![GitHub license](https://img.shields.io/github/license/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.svg)](https://github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FVitexSoftware%2Fphp-vitexsoftware-ease-bootstrap4-widgets-abraflexi)
 
-TwitterBootstrap4 Widgets for [php-flexibee](https://github.com/Spoje-NET/php-flexibee) Library for FlexiBee with EasePHP Framework widgets
+TwitterBootstrap4 Widgets for [php-abraflexi](https://github.com/Spoje-NET/php-abraflexi) Library for Abraflexi with EasePHP Framework widgets
 
 
 Instalace
 ----------
 
-    composer require vitexsoftware/ease-bootstrap4-widgets-flexibee
+    composer require vitexsoftware/ease-bootstrap4-widgets-abraflexi
 
 How to run ?
 ------------
 
 1) composer install
 2) cd src
-3) modify config.php to use custom FlexiBee connection
+3) modify config.php to use custom Abraflexi connection
 4) open the project url in browser
 
 
@@ -30,7 +30,9 @@ How to run ?
 
 | Soubor                                                           | Popis                                 |
 | ---------------------------------------------------------------- | --------------------------------------|
-| [StatusInfoBox](src/AbraFlexi/Bricks/ui/TWB4/StatusInfoBox.php) | Infostaus pripojeni k firme
+| [AddressForm](src/AbraFlexi/ui/TWB4/AddressForm.php)             | Formulář pro výběr firmy
+| [ConnectionForm](src/AbraFlexi/ui/TWB4/ConnectionForm.php)       | Formulář pro pripojeni k firme
+| [StatusInfoBox](src/AbraFlexi/ui/TWB4/StatusInfoBox.php)         | Infostaus pripojeni k firme
 
 
 Ukázky ve složce [Examples](Examples)
@@ -45,4 +47,4 @@ Pro Linux jsou k dispozici .deb balíčky. Prosím použijte repo:
     wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
     echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/ease.list
     apt update
-    apt install php-vitexsoftware-ease-bootstrap4-widgets-flexibee
+    apt install php-vitexsoftware-ease-bootstrap4-widgets-abraflexi

@@ -11,32 +11,32 @@ require_once '../vendor/autoload.php';
 \Ease\Shared::instanced()->loadConfig(dirname(__DIR__).'/tests/client.json',
     true);
 
-$oPage = new \Ease\TWB\WebPage(_('Address editor'));
+$oPage = new \Ease\TWB4\WebPage(_('Address editor'));
 
 $addressId = $oPage->getRequestValue('id');
 
 if (empty($addressId)) {
-    $form = new \Ease\TWB\Form('idform');
+    $form = new \Ease\TWB4\Form('idform');
     $form->addInput(new \Ease\Html\InputTextTag('id'),
-        _('FlexiBee address identifier'));
+        _('Abraflexi address identifier'));
 } else {
     $adresser = new Adresar(is_numeric($addressId) ? (int) $addressId : $addressId);
     if ($oPage->isPosted()) {
         if ($adresser->sync($_POST)) {
-            $oPage->addItem(new \Ease\TWB\Label('success', _('Address saved')));
+            $oPage->addItem(new \Ease\TWB4\Label('success', _('Address saved')));
         } else {
-            $oPage->addItem(new \Ease\TWB\Label('error',
+            $oPage->addItem(new \Ease\TWB4\Label('error',
                 _('Address save failed')));
         }
     }
 
     $form = new ui\AdresarForm($adresser);
-    $form->addItem(new \Ease\Html\DivTag(new \Ease\TWB\SubmitButton(_('Save'),
+    $form->addItem(new \Ease\Html\DivTag(new \Ease\TWB4\SubmitButton(_('Save'),
         'success'), ['style' => 'text-align: right']));
 }
 
 
-$oPage->addItem(new \Ease\TWB\Container($form));
+$oPage->addItem(new \Ease\TWB4\Container($form));
 
 
 $oPage->draw();

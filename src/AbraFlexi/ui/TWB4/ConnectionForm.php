@@ -11,38 +11,38 @@ use \Ease\TWB4\Form;
 use \Ease\TWB4\SubmitButton;
 
 /**
- * Form to configure used FlexiBee instance
+ * Form to configure used Abraflexi instance
  *
  * @author vitex
  */
 class ConnectionForm extends Form
 {
     /**
-     * FlexiBee URL Input name
-     * @var string eg. https://demo.flexibee.eu:5434
+     * Abraflexi URL Input name
+     * @var string eg. https://demo.abraflexi.eu:5434
      */
     public $urlField = 'url';
 
     /**
-     * FlexiBee User Input name
+     * Abraflexi User Input name
      * @var string eg. winstrom
      */
     public $usernameField = 'user';
 
     /**
-     * FlexiBee Password Input name
+     * Abraflexi Password Input name
      * @var string eg. winstrom
      */
     public $passwordField = 'password';
 
     /**
-     * FlexiBee Company Input name
+     * Abraflexi Company Input name
      * @var string eg. demo_s_r_o_
      */
     public $companyField = 'company';
 
     /**
-     * FlexiBee Server connection form
+     * Abraflexi Server connection form
      * 
      * @param string $formAction    where to put response
      * @param string $formMethod    GET | POST

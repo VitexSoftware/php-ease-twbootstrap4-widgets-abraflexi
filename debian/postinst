@@ -21,7 +21,7 @@ set -e
 case "$1" in
     configure)
 
-        composer-global-update deb/ease-bootstrap4-widgets-flexibee
+        composer-global-update deb/ease-bootstrap4-widgets-abraflexi
 
     ;;
 

@@ -15,10 +15,10 @@ define('EASE_LOGGER', 'syslog');
 /*
 $banka = 'HLAVNI';
 
-$prober = new AbraFlexi\FlexiBeeRW();
+$prober = new AbraFlexi\RW();
 $prober->setEvidence('bankovni-ucet');
 if (!$prober->recordExists(['kod' => $banka])) {
-    $prober->insertToFlexiBee(['kod' => $banka,
+    $prober->insertToAbraflexi(['kod' => $banka,
         'nazev' => $banka
     ]);
 }

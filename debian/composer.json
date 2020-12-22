@@ -1,6 +1,6 @@
 {
   "name": "deb/ease-bootstrap4-widgets-abraflexi",
-  "description": "php-flexibee extending classes and widgets (debianized)",
+  "description": "php-abraflexi extending classes and widgets (debianized)",
   "homepage": "https://github.com/VitexSoftware/AbraFlexi-Bricks",
   "license": "GPL-2.0+",
   "version": "0.1",
