@@ -1,6 +1,6 @@
 {
-    "name": "vitexsoftware/ease-bootstrap4-widgets-flexibee",
-    "description": "php-flexibee extending classes and widgets",
+    "name": "vitexsoftware/ease-bootstrap4-widgets-abraflexi",
+    "description": "php-abraflexi extending classes and widgets",
     "type": "library",
     "authors": [
         {
@@ -20,7 +20,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Test\\Ease\\": "vendor/vitexsoftware/ease-framework/tests/src/Ease",
+            "Test\\Ease\\": "vendor/vitexsoftware/ease-core/tests/src/Ease",
             "Test\\AbraFlexi\\": "vendor/spoje.net/flexipeehp/testing/src/AbraFlexi/",
             "Test\\AbraFlexi\\ui\\": "testing/AbraFlexi/ui",
             "Test\\": "testing/"

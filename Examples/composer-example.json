@@ -1,5 +1,5 @@
 {
-    "name": "vitexsoftware/php-ease-bootstrap4-widgets-flexibee-example",
+    "name": "vitexsoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee-example",
     "description": "List Invoices and embed choosen invoice PDF in english to webpage",
     "authors": [
         {
@@ -8,6 +8,6 @@
         }
     ],
     "require": {
-        "vitexsoftware/php-ease-bootstrap4-widgets-flexibee": ">=0.3"
+        "vitexsoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee": ">=0.3"
     }
 }

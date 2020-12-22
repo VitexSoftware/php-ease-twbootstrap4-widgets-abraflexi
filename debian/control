@@ -1,21 +1,21 @@
-Source: php-ease-bootstrap4-widgets-flexibee
+Source: php-vitexsoftware-ease-bootstrap4-widgets-flexibee
 Build-Depends: debhelper (>= 7.0.50~),php-apigen
 Standards-Version: 4.3.0
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Uploaders: Vitex <vitex@hippy.cz>
 Priority: optional
-Homepage: https://github.com/Vitexus/php-ease-bootstrap4-widgets-flexibee
+Homepage: https://github.com/Vitexus/php-vitexsoftware-ease-bootstrap4-widgets-flexibee
 
-Package: php-ease-bootstrap4-widgets-flexibee
-Depends: ${misc:Depends},php-ease-bootstrap4-widgets
-Suggests: flexipeehp-doc,php-flexibee-bricks-doc
+Package: php-vitexsoftware-ease-bootstrap4-widgets-abraflexi
+Depends: ${misc:Depends},php-vitexsoftware-ease-bootstrap4,php-vitxsoftware-abraflexi-bricks
+Suggests: php-spojenet-abraflexi-doc,php-vitexsoftware-abraflexi-bricks-doc
 Architecture: all
 Section: web
 Priority: optional
 Description: PHP Based FlexiBee RestAPI/Json library AddOns
  Additional classess and code snipplets for AbraFlexi library
 
-#Package: php-ease-bootstrap4-widgets-flexibee-doc
+#Package: php-vitexsoftware-ease-bootstrap4-widgets-flexibee-doc
 #Depends: ${misc:Depends}
 #Suggests: www-browser
 #Architecture: all

@@ -1,11 +1,11 @@
-# php-ease-bootstrap4-widgets-flexibee
-![Project Logo](https://raw.githubusercontent.com/VitexSoftware/php-ease-bootstrap4-widgets-flexibee/master/project-logo.png "Project Logo")
+# php-vitexsoftware-ease-bootstrap4-widgets-flexibee
+![Project Logo](https://raw.githubusercontent.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee/master/project-logo.png "Project Logo")
 
 [![Build Status](https://travis-ci.org/VitexSoftware/Ease-PHP-Bricks.svg?branch=master)](https://travis-ci.org/VitexSoftware/Ease-PHP-Bricks)
-[![GitHub stars](https://img.shields.io/github/stars/VitexSoftware/php-ease-bootstrap4-widgets-flexibee.svg)](https://github.com/VitexSoftware/php-ease-bootstrap4-widgets-flexibee/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/VitexSoftware/php-ease-bootstrap4-widgets-flexibee.svg)](https://github.com/VitexSoftware/php-ease-bootstrap4-widgets-flexibee/issues)
-[![GitHub license](https://img.shields.io/github/license/VitexSoftware/php-ease-bootstrap4-widgets-flexibee.svg)](https://github.com/VitexSoftware/php-ease-bootstrap4-widgets-flexibee/blob/master/LICENSE)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/VitexSoftware/php-ease-bootstrap4-widgets-flexibee.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FVitexSoftware%2Fphp-ease-bootstrap4-widgets-flexibee)
+[![GitHub stars](https://img.shields.io/github/stars/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee.svg)](https://github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee.svg)](https://github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee/issues)
+[![GitHub license](https://img.shields.io/github/license/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee.svg)](https://github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-flexibee.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FVitexSoftware%2Fphp-vitexsoftware-ease-bootstrap4-widgets-flexibee)
 
 TwitterBootstrap4 Widgets for [php-flexibee](https://github.com/Spoje-NET/php-flexibee) Library for FlexiBee with EasePHP Framework widgets
 
@@ -45,4 +45,4 @@ Pro Linux jsou k dispozici .deb balíčky. Prosím použijte repo:
     wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
     echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/ease.list
     apt update
-    apt install php-ease-bootstrap4-widgets-flexibee
+    apt install php-vitexsoftware-ease-bootstrap4-widgets-flexibee

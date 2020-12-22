@@ -1,4 +1,4 @@
 docs/*                      usr/share/doc/EaseTWB4WidgetsFlexiBee/html
 docs/resources/*            usr/share/doc/EaseTWB4WidgetsFlexiBee/html/resources
-debian/php-ease-bootstrap4-widgets-flexibee-doc.conf  usr/share/doc/php-ease-bootstrap4-widgets-flexibee-doc/apache
+debian/php-vitexsoftware-ease-bootstrap4-widgets-flexibee-doc.conf  usr/share/doc/php-vitexsoftware-ease-bootstrap4-widgets-flexibee-doc/apache
 README.md                   usr/share/doc/EaseTWB4WidgetsFlexiBee/

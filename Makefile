@@ -1,10 +1,10 @@
-repoversion=$(shell LANG=C aptitude show php-ease-bootstrap4-widgets-flexibee | grep Version: | awk '{print $$2}')
+repoversion=$(shell LANG=C aptitude show php-vitexsoftware-ease-bootstrap4-widgets-flexibee | grep Version: | awk '{print $$2}')
 nextversion=$(shell echo $(repoversion) | perl -ne 'chomp; print join(".", splice(@{[split/\./,$$_]}, 0, -1), map {++$$_} pop @{[split/\./,$$_]}), "\n";')
 
 
 clean:
-	rm -rf debian/php-ease-bootstrap4-widgets-flexibee
-	rm -rf debian/php-ease-bootstrap4-widgets-flexibee-doc
+	rm -rf debian/php-vitexsoftware-ease-bootstrap4-widgets-flexibee
+	rm -rf debian/php-vitexsoftware-ease-bootstrap4-widgets-flexibee-doc
 	rm -rf debian/*.log
 	rm -rf debian/*.substvars
 	rm -rf docs/*
@@ -12,7 +12,7 @@ clean:
 
 doc:
 	VERSION=`cat debian/composer.json | grep version | awk -F'"' '{print $$4}'`; \
-	php -f /usr/bin/apigen generate --source src --destination docs --title "php-ease-bootstrap4-widgets-flexibee ${VERSION}" --charset UTF-8 --access-levels public --access-levels protected --php --tree
+	php -f /usr/bin/apigen generate --source src --destination docs --title "php-vitexsoftware-ease-bootstrap4-widgets-flexibee ${VERSION}" --charset UTF-8 --access-levels public --access-levels protected --php --tree
 
 phpunit:
 	composer update
@@ -20,14 +20,14 @@ phpunit:
 
 changelog:
 	VERSION=`cat debian/composer.json | grep version | awk -F'"' '{print $$4}'`; \
-	CHANGES=`git log -n 1 | tail -n+5` ; dch -b -v $${VERSION} --package php-ease-bootstrap4-widgets-flexibee "$(CHANGES)"
+	CHANGES=`git log -n 1 | tail -n+5` ; dch -b -v $${VERSION} --package php-vitexsoftware-ease-bootstrap4-widgets-flexibee "$(CHANGES)"
 
 deb: changelog
 	dpkg-buildpackage -A -us -uc
 
 rpm:
-	rpmdev-bumpspec --comment="Build" --userstring="Vítězslav Dvořák <info@vitexsoftware.cz>" php-ease-bootstrap4-widgets-flexibee.spec
-	rpmbuild -ba php-ease-bootstrap4-widgets-flexibee.spec
+	rpmdev-bumpspec --comment="Build" --userstring="Vítězslav Dvořák <info@vitexsoftware.cz>" php-vitexsoftware-ease-bootstrap4-widgets-flexibee.spec
+	rpmbuild -ba php-vitexsoftware-ease-bootstrap4-widgets-flexibee.spec
 
 release:
 	echo Release v$(nextversion)

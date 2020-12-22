@@ -1,14 +1,14 @@
 Format-Specification: http://wiki.debian.org/Proposals/CopyrightFormat?action=recall&rev=143
 Upstream-Name: AbraFlexi
-Upstream-Source: https://github.com/Spoje-NET/AbraFlexi/archive/master.zip
+Upstream-Source: https://github.com/VitexSoftware/php-ease-twbootstrap4-widgets-flexibee
 
 Files: *
 Homepage: https://github.com/Spoje-NET/AbraFlexi/
 Copyright:
   (c) 2016 Spoje.Net s.r.o. (spoje.net)
-License: GPL-2 
+License: MIT 
 
-License: GPL-2
- On Debian systems the full text of the GNU General Public License can be found
- in the `/usr/share/common-licenses/GPL-2' file.
+License: MIT
+ On Debian systems the full text of the MIT License can be found
+ in the `/usr/share/common-licenses/MIT' file.
 
