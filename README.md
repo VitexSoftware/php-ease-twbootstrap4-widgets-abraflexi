@@ -1,11 +1,12 @@
 # php-vitexsoftware-ease-bootstrap4-widgets-abraflexi
-![Project Logo](https://raw.githubusercontent.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi/master/project-logo.png "Project Logo")
+![Project Logo](project-logo.png?raw=true "Project Logo")
 
-[![Build Status](https://travis-ci.org/VitexSoftware/Ease-PHP-Bricks.svg?branch=master)](https://travis-ci.org/VitexSoftware/Ease-PHP-Bricks)
-[![GitHub stars](https://img.shields.io/github/stars/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.svg)](https://github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.svg)](https://github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi/issues)
-[![GitHub license](https://img.shields.io/github/license/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.svg)](https://github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi/blob/master/LICENSE)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/VitexSoftware/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FVitexSoftware%2Fphp-vitexsoftware-ease-bootstrap4-widgets-abraflexi)
+[![Latest Stable Version](https://poser.pugx.org/vitexsoftware/ease-twbootstrap4-widgets-flexibee/v)](//packagist.org/packages/vitexsoftware/ease-twbootstrap4-widgets-flexibee) 
+[![Total Downloads](https://poser.pugx.org/vitexsoftware/ease-twbootstrap4-widgets-flexibee/downloads)](//packagist.org/packages/vitexsoftware/ease-twbootstrap4-widgets-flexibee) 
+[![Latest Unstable Version](https://poser.pugx.org/vitexsoftware/ease-twbootstrap4-widgets-flexibee/v/unstable)](//packagist.org/packages/vitexsoftware/ease-twbootstrap4-widgets-flexibee) 
+[![License](https://poser.pugx.org/vitexsoftware/ease-twbootstrap4-widgets-flexibee/license)](//packagist.org/packages/vitexsoftware/ease-twbootstrap4-widgets-flexibee)
+[![Monthly Downloads](https://poser.pugx.org/vitexsoftware/ease-twbootstrap4-widgets-flexibee/d/monthly)](//packagist.org/packages/vitexsoftware/ease-twbootstrap4-widgets-flexibee)
+[![Dependents](https://poser.pugx.org/vitexsoftware/ease-twbootstrap4-widgets-flexibee/dependents)](//packagist.org/packages/vitexsoftware/ease-twbootstrap4-widgets-flexibee)
 
 TwitterBootstrap4 Widgets for [php-abraflexi](https://github.com/Spoje-NET/php-abraflexi) Library for Abraflexi with EasePHP Framework widgets
 
@@ -13,16 +14,9 @@ TwitterBootstrap4 Widgets for [php-abraflexi](https://github.com/Spoje-NET/php-a
 Instalace
 ----------
 
-    composer require vitexsoftware/ease-bootstrap4-widgets-abraflexi
-
-How to run ?
-------------
-
-1) composer install
-2) cd src
-3) modify config.php to use custom Abraflexi connection
-4) open the project url in browser
-
+```shell
+    composer require vitexsoftware/ease-twbootstrap4-widgets-flexibee
+```
 
 ### Co tady máme ?
 
@@ -44,7 +38,7 @@ Debian/Ubuntu
 
 Pro Linux jsou k dispozici .deb balíčky. Prosím použijte repo:
 
-    wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
-    echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/ease.list
-    apt update
-    apt install php-vitexsoftware-ease-bootstrap4-widgets-abraflexi
+```shell
+    
+```
+

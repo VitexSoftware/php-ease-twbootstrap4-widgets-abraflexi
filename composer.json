@@ -11,8 +11,9 @@
     "license": "MIT",
     "require": {
         "vitexsoftware/ease-twbootstrap4": ">=1.1",
-        "vitexsoftware/abraflexi-bricks": "dev-abraflexi"
+        "vitexsoftware/flexibee-bricks": "dev-abraflexi"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "AbraFlexi\\ui\\TWB4\\": "src/AbraFlexi/ui/TWB4"

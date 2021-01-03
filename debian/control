@@ -4,10 +4,10 @@ Standards-Version: 4.3.0
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Uploaders: Vitex <vitex@hippy.cz>
 Priority: optional
-Homepage: https://github.com/Vitexus/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi
+Homepage: https://github.com/VitexSoftware/php-ease-twbootstrap4-widgets-abraflexi
 
 Package: php-vitexsoftware-ease-bootstrap4-widgets-abraflexi
-Depends: ${misc:Depends},php-vitexsoftware-ease-bootstrap4,php-vitxsoftware-abraflexi-bricks
+Depends: ${misc:Depends},php-vitexsoftware-abraflexi-bricks,php-vitexsoftware-ease-bootstrap4-widgets
 Suggests: php-spojenet-abraflexi-doc,php-vitexsoftware-abraflexi-bricks-doc
 Architecture: all
 Section: web
