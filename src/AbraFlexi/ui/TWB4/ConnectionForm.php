@@ -9,7 +9,6 @@
 namespace AbraFlexi\ui\TWB4;
 
 use Ease\TWB4\Form;
-use Ease\TWB4\SubmitButton;
 use Ease\Html\InputTextTag;
 
 /**
@@ -46,11 +45,12 @@ class ConnectionForm extends Form {
     /**
      * Abraflexi Server connection form
      * 
+     * @param array $options           ConnectionOptions options
      * @param array $formProperties    FormTag properties eg. ['enctype' => 'multipart/form-data']
      * @param array $formDivProperties FormDiv propertise eg. ['class'=>'form-row align-items-center']
      * @param mixed $formContents      Any other initial content
      */
-    public function __construct($formProperties = [], $formDivProperties = [], $formContents = null) {
+    public function __construct(array $options,  array $formProperties = [], $formDivProperties = [], $formContents = null) {
         parent::__construct($formProperties, $formDivProperties, $formContents);
 
         $this->addInput(new InputTextTag($this->urlField),
@@ -64,15 +64,7 @@ class ConnectionForm extends Form {
 
         $this->addInput(new InputTextTag($this->companyField),
                 _('Company Code'));
+        
+        $this->fillUp($options);
     }
-
-    /**
-     * Finally add subnut button
-     */
-    public function finalize() {
-        $this->addItem(new SubmitButton(_('Use Connection'),
-                        'success', ['width' => '100%']));
-        parent::finalize();
-    }
-
 }
