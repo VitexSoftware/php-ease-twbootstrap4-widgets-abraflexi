@@ -15,3 +15,4 @@ composer.lock
 /debian/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.debhelper.log
 /debian/php-vitexsoftware-ease-bootstrap4-widgets-abraflexi.substvars
 /debian/.debhelper/
+/.phpdoc/

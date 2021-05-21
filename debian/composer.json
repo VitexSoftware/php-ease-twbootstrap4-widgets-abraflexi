@@ -3,7 +3,7 @@
   "description": "php-abraflexi extending classes and widgets (debianized)",
   "homepage": "https://github.com/VitexSoftware/AbraFlexi-Bricks",
   "license": "GPL-2.0+",
-  "version": "0.1",
+  "version": "0.5",
   "type": "library",
   "authors": [
     {

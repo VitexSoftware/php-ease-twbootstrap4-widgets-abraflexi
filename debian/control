@@ -1,5 +1,5 @@
 Source: php-vitexsoftware-ease-bootstrap4-widgets-abraflexi
-Build-Depends: debhelper (>= 7.0.50~),php-apigen
+Build-Depends: debhelper (>= 7.0.50~),phpdocumentor
 Standards-Version: 4.3.0
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Uploaders: Vitex <vitex@hippy.cz>
