@@ -13,7 +13,7 @@
         "vitexsoftware/ease-twbootstrap4": ">=1.1",
         "vitexsoftware/abraflexi-bricks": ">=1.1"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "AbraFlexi\\ui\\TWB4\\": "src/AbraFlexi/ui/TWB4"
