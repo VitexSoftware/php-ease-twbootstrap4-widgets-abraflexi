@@ -10,8 +10,8 @@
     ],
     "license": "MIT",
     "require": {
-        "vitexsoftware/ease-twbootstrap4": ">=1.1",
-        "vitexsoftware/abraflexi-bricks": ">=1.1"
+        "vitexsoftware/ease-twbootstrap4": "^1.9",
+        "vitexsoftware/abraflexi-bricks": "^1.2"
     },
     "minimum-stability": "stable",
     "autoload": {
