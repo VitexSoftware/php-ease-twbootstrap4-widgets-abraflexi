@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.vitexsoftware.php_vitexsoftware_ease_bootstrap4_widgets_abraflexi</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <name>php-vitexsoftware-ease-bootstrap4-widgets-abraflexi</name>
+  <summary>PHP Based Abraflexi RestAPI/Json library AddOns</summary>
+  <description>
+    <p>
+      Additional classess and code snipplets for AbraFlexi library
+    </p>
+  </description>
+  <categories>
+    <category>Utility</category>
+  </categories>
+  <url type="homepage">https://github.com/VitexSoftware/php-ease-twbootstrap4-widgets-abraflexi</url>
+  <url type="bugtracker">https://github.com/VitexSoftware/php-ease-twbootstrap4-widgets-abraflexi/issues</url>
+  <developer id="cz.vitexsoftware">
+    <name>VitexSoftware</name>
+  </developer>
+  <content_rating type="oars-1.1"/>
+</component>
