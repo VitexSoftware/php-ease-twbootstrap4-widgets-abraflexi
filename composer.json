@@ -11,7 +11,7 @@
     "license": "MIT",
     "require": {
         "vitexsoftware/ease-twbootstrap4": "^1.12",
-        "vitexsoftware/abraflexi-bricks": "^1.4"
+        "vitexsoftware/abraflexi-bricks": "^1.5"
     },
     "minimum-stability": "stable",
     "autoload": {
